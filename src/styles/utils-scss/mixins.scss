@@ -1,0 +1,3 @@
+@mixin clockRotate($rotate) {
+  transform: $rotate;
+}

@@ -1,0 +1,35 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.title {
+  align-self: center;
+
+  margin-bottom: 10px;
+}
+
+.text {
+  align-self: center;
+
+  margin-bottom: 10px;
+
+  font-size: 20px;
+}
+
+.btn_increment {
+  align-self: center;
+  padding: 5px;
+  background-color: #fff;
+
+  margin-bottom: 10px;
+}
+
+.btn_decrement {
+  align-self: center;
+  padding: 5px;
+  background-color: green;
+
+  margin-bottom: 10px;
+}
