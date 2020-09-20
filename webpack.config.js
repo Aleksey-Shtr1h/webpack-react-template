@@ -8,7 +8,6 @@ const autoprefixer = require('autoprefixer');
 
 module.exports = {
   context: path.resolve(__dirname, 'src'), 
-  
   entry: {
     main: './index.js',
   },
@@ -25,6 +24,7 @@ module.exports = {
       '@style': path.resolve(__dirname, 'src/style'),
       '@fonts': path.resolve(__dirname, 'src/assets/fonts'),
       '@img': path.resolve(__dirname, 'src/assets/img'),
+      '@favicon': path.resolve(__dirname, 'src/assets/favicon'),
     }
   },
 
